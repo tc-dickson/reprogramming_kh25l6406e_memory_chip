@@ -1,0 +1,6 @@
+[package]
+name = "reprogramming_kh25l6406e_memory_chip"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
