@@ -1,0 +1,7 @@
+# This file allows us to pass in arguments to the Cargo rustc command
+
+[build]
+target = "thumbv7e-none-eabihf"
+
+[target.thumbv7e-none-eabihf]
+rustflags = ["-C", "link-arg=-nostartfiles", "-C", "link-arg=-Tlink.x"]
