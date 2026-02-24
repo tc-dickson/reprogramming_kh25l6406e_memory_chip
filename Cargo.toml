@@ -6,5 +6,6 @@ edition = "2024"
 [dependencies]
 cortex-m = "0.7.7"
 cortex-m-rt = "0.7.5"
+embedded-hal = "1.0.0"
 nrf52833-hal = "0.19.0"
 panic-halt = "1.0.0"
